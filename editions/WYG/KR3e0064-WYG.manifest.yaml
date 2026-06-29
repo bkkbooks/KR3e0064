@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR3e0064/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3e0064/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 外科精義
+  date: '2015-08-24 23:06:25.762011'
+  source:
+    repository: kanripo
+    path: KR3e0064
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3e0064_000-WYG.yaml, hash: 'sha256:4da67f92989d320873f837b6c20f5479b7ea632a9d6a2fd058b6901173e42372'}
+  - {seq: 1, filename: KR3e0064_001-WYG.yaml, hash: 'sha256:97f818ed6b79468050761f834579726aa12904616eba50d453a452293e726d81'}
+  - {seq: 2, filename: KR3e0064_002-WYG.yaml, hash: 'sha256:23a3dcbea5e89346136d76291f444f561e28ab3c6fcc08f9b5956613951d903a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3e0064_000-WYG.markers.yaml, hash: 'sha256:391944cdd6d17ccd0543245e707523595ac46c292d86e798780b014406171178'}
+  - {seq: 1, role: markers, filename: assets/KR3e0064_001-WYG.markers.yaml, hash: 'sha256:361af0d37ce2b02aab94d111cb5e7b615490460bdc1bbec38213761704e78aee'}
+  - {seq: 2, role: markers, filename: assets/KR3e0064_002-WYG.markers.yaml, hash: 'sha256:5b78b94e56f11eee0e2ed11bb862aaaa2c551082fc55732f3a898b704caf8225'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3e0064_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 396
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0064_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 15614
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3e0064_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 14048
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:0943b3338c8bdd6a04597d3ee8201553918e009931835dd9c9e3a4957388415b
